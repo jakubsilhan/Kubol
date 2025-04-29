@@ -1,0 +1,12 @@
+THRU (i IS 0; i LESSER 5; i ADD 1)
+    IMAGINE(i)
+END_THRU
+IMAGINE()
+THRU (i IS 5; i GREATER 0; i ADD -1)
+    IMAGINE(i)
+END_THRU
+IMAGINE()
+THRU(i IS 0; i LESSER 5; i ADD 1)
+    IMAGINE(i)
+    i IS 6
+END_THRU

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Language_Kubol:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Language_Kubol_jar</output-path>
+    <root id="archive" name="Language_Kubol.jar">
+      <element id="module-output" name="Language_Kubol" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

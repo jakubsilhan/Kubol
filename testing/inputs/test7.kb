@@ -1,0 +1,6 @@
+THRU(i IS 0; i GREATER -1; i ADD 1)
+    IMAGINE(i MULTIPLY i)
+    DETERMINE(i GREATER 9)
+        i IS -2
+    END_DETERMINE
+END_THRU
