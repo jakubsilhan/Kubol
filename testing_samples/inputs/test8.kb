@@ -1,4 +1,5 @@
 print IS 10
 IMAGINE()
 IMAGINE(5)
+IMAGINE(2 ADD 2)
 IMAGINE(print)

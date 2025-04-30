@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "kubol",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#numbers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+				"name": "keyword.control.kb",
+				"match": "\\b(DETERMINE|END_DETERMINE|THRU|END_THRU|IMAGINE|IS)\\b"
+				}
+			]
+		},
+		"operators": {
+			"patterns": [{
+				"name": "keyword.operator.new.kb",
+				"match": "\\b(EQUAL|LESSER|GREATER|ADD|MULTIPLY)\\b"
+			}]
+		},
+		"numbers": {
+			"patterns": [{
+				"name": "constant.numeric.kb",
+				"match": "-?\\b(0|[1-9][0-9]*)\\b"
+			}]
+		}
+	},
+	"scopeName": "source.kb"
+}

@@ -1,4 +1,4 @@
-# Testing 
+# Testing
 This file contains the documentation for code snippets and their expected results
 
 ## Test 1 - simple calculation
@@ -150,12 +150,14 @@ END_THRU
 print IS 10
 IMAGINE()
 IMAGINE(5)
+IMAGINE(2 ADD 2)
 IMAGINE(print)
 ```
 ### Output
 ```
 
 5
+4
 10
 ```
 
@@ -177,4 +179,18 @@ IMAGINE(test)
 ### Output
 ```
 line 1:8 Cannot find variable: test
+```
+
+## Test 11 - Empty line
+### Input
+```
+IMAGINE(1)
+
+IMAGINE(2)
+```
+
+### Output
+```
+1
+2
 ```
