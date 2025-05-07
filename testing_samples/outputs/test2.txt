@@ -1,1 +1,6 @@
+Input:
+calc IS 3 MULTIPLY (4 ADD 2)
+IMAGINE(calc)
+
+Output:
 18

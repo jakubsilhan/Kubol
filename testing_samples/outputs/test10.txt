@@ -1,1 +1,5 @@
+Input:
+IMAGINE(test)
+
+Output:
 line 1:8 Cannot find variable: test

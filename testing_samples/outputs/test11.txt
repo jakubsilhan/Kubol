@@ -1,2 +1,8 @@
+Input:
+IMAGINE(1)
+
+IMAGINE(2)
+
+Output:
 1
 2

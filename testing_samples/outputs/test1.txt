@@ -1,1 +1,6 @@
+Input:
+calc IS 3 ADD (4 MULTIPLY 2)
+IMAGINE(calc)
+
+Output:
 11

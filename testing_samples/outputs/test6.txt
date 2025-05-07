@@ -1,1 +1,28 @@
-line 1:14 Cycle condition must use the same variable in all parts.
+Input:
+THRU (i IS 0; i LESSER 5; i ADD 1)
+    IMAGINE(i)
+END_THRU
+IMAGINE()
+THRU (i IS 5; i GREATER 0; i ADD -1)
+    IMAGINE(i)
+END_THRU
+IMAGINE()
+THRU(i IS 0; i LESSER 5; i ADD 1)
+    IMAGINE(i)
+    i IS 6
+END_THRU
+
+Output:
+0
+1
+2
+3
+4
+
+5
+4
+3
+2
+1
+
+0

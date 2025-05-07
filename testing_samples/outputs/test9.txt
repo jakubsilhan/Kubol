@@ -1,1 +1,5 @@
+Input:
+IMAGINE("test")
+
+Output:
 Syntax error at line 1:8 token recognition error at: '"'

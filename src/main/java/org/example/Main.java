@@ -28,7 +28,9 @@ public class Main {
             }
             System.setOut(fileOut);
             String input = sb.toString();
-
+            System.out.println("Input:");
+            System.out.println(input);
+            System.out.println("Output:");
             MyVisitor visitor = new MyVisitor();
             try{
                 visitor.interpret(input);
